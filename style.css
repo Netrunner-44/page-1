@@ -13,11 +13,37 @@
 }
 
 body {
-    color: rgba(0, 0, 0, 0.9);
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .main-container {
     padding: 1em;
+}
+
+.main-title {
+    font-size: 3em;
+    text-transform: capitalize;
+    margin-bottom: 0.2em;
+    position: absolute;
+}
+
+.title-logo {
+    background-image: url('title-skull.png');
+    height: 100px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: fixed;
+    position: relative;
+    left: 90%;
+    opacity: 0.5;
+}
+
+.title-line {
+    width: 75%;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 1em;
+    border: 0.1px solid rgba(0, 0, 0, 0.2);
 }
 
 .excerpt-header {
